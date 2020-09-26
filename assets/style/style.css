@@ -1,31 +1,11 @@
-h1 {
-    background-color: black;
-    color: white;
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
     text-align: center;
-    margin: 0;
-    bottom: 0;
-    padding: 0;
 }
 
-body {
-    background-color: #efeee7;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    color: #333333;
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    display: inline;
-}
-
-#bio-image {
-    float: left;
-}
-
-#main-bio {
-    float: left;
-}
-#contact-info {
-    float: left;
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
 }
